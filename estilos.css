@@ -1,0 +1,316 @@
+body{
+	background-color: #EAEAEA;
+	font-family: Arial, Verdana;
+	font-size: 12px;
+	margin: 0px;
+	text-align: center;
+}
+
+#encabezado{
+	margin: auto;
+	width: 970px;
+	text-align: center;
+	background-color: #FCFCFC;
+	
+}
+
+#encabezado span{
+	position: absolute;
+	margin-left: 210px;
+	margin-top: 40px;
+	
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+#encabezado #info p{
+	font-size: 18px;
+}
+
+#menu{
+	margin-top: 0px;
+	padding: 10px;
+	
+	background-color: #e8e8e8;
+	
+	border-top-style: solid;
+	border-top-width: 3px;
+	border-top-color: #9f1422;
+	
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #9f1422;
+}
+
+#menu a{
+	text-decoration: none;
+	color: #000000;
+}
+
+#menu a:hover{
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #ac1418;
+}
+
+#contenido{
+	width: 960px;
+	margin: auto;
+	font-size: 12px;
+	text-align: left;
+	background-color: #FFFFFF;
+	padding: 0px 0px 10px 10px;
+}
+
+#contenido #col_izq{
+	float: left;
+	width: 630px;
+	background-image: url("imagenes/division.png");
+	background-repeat: repeat-y;
+	background-position: 619px 0px;
+}
+
+#contenido #col_izq h3{
+	margin: 0px;
+	padding: 15px 0px 15px 0px;
+}
+
+#contenido #col_izq td, #contenido #col_izq th{
+	text-align: left;
+	font-size: 12px;
+	font-family: Arial, Verdana;;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCCCC;
+}
+
+#contenido #col_izq th{
+	background-color: #F6F6F6;
+}
+
+#contenido #col_izq p{
+	padding-right: 20px;
+	padding-left: 10px;
+	text-align: justify;
+}
+
+#contenido #col_izq p.privacidad{
+	width: 97%;
+	padding: 5px;
+	text-align: center;
+	background-color: #EFEFEF;
+	border-style: solid;
+	border-color: #999999;
+	border-width: 1px;
+	margin: 25px 0px 25px 0px;
+}
+
+#contenido #col_izq p.privacidad a{
+	text-decoration: none;
+	color: #666666;
+}
+
+#contenido #col_izq p.privacidad a:hover{
+	color: #000000;
+}
+
+#contenido #col_der{
+	float: left;
+	width: 330px;
+	padding-left: 0px;
+	background-color: #FCFCFC;
+}
+
+#contenido #col_der p{
+	text-align: justify;
+	font-size: 11px;
+	color: #555555;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#contenido #col_der a{
+	text-decoration: none;
+}
+
+#contenido #col_der a:hover{
+	color: #000000;
+}
+
+.vacio{
+	clear: both;
+	padding-bottom: 10px;
+}
+
+#pie{
+	margin: auto;
+	width: 970px;
+	height: 80px;
+	background-color: #FFFFFF;
+	padding: 20px 0px 10px 0px;
+	
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #A5CD36;
+}
+
+#pie p{
+	margin: 0px;
+	padding-top: 30px;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 11px;
+	color: #444444;
+}
+
+.stxt{
+	width: 120px;
+}
+
+.mtxt{
+	width: 160px;
+}
+
+.ltxt{
+	width: 440px;
+}
+
+.eltxt{
+	width: 590px;
+}
+
+.centrado{
+	text-align: center !important;
+}
+
+.error{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CC0000;
+	padding: 3px;
+	font-size: 12px;
+	font-family: Arial, Verdana;
+}
+
+input, textarea, select{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7F9DB9;
+	padding: 3px;
+	font-size: 12px;
+	font-family: Arial, Verdana;
+}
+
+.sb{
+	border-width: 0px;
+}
+
+#estudiante, #factura{
+	display: block;
+}
+
+.aviso{
+	display: block;
+	width: 97%;
+	text-align: center;
+	background-color: #E6FAE4;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #85D68B;
+}
+
+.aviso2{
+	display: block;
+	width: 97%;
+	text-align: center;
+	background-color: #FFB3B3;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CA4200;
+}
+
+.centrado{
+	text-align: center;
+}
+
+.centrado img{
+	padding-bottom: 10px;
+}
+
+.campo_tmp{
+	width: 200px;
+	float: left;
+	padding-top: 5px;
+}
+
+.btn_tmp{
+	width: 200px;
+	float: right;
+	text-align: right;
+}
+
+optgroup{
+	font-style: normal;
+}
+
+.rojo{
+	#AA0000;
+}
+
+.verde{
+	#00AA00;
+}
+
+h1{
+	padding: 5px;
+	margin-right: 10px;
+	
+	font-size: 16px;
+}
+
+h2{
+	color: #1E5C37;
+	padding: 5px;
+	margin-right: 10px;
+	
+	font-size: 14px;
+}
+
+.h3{
+	padding: 5px;
+	margin-right: 10px;
+	
+	font-size: 13px;
+	
+	font-weight: bold;
+}
+
+h4{
+	padding: 5px;
+	margin-right: 10px;
+}
+
+li{
+	margin-top: 10px;
+}
+
+#col_izq li{
+	margin-right: 10px;
+}
+
+.importante{
+	background-color: #EEEEEE;
+	padding: 5px;
+	margin: 3px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CCCCCC;
+}
+
+.importante span{
+	display: block;
+	font-weight: bold;
+	padding-bottom: 8px;
+}

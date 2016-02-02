@@ -1,0 +1,2 @@
+<ul><li class="inc"></li><li><a href="index.php" title="Portada">Portada</a></li><li><a href="index.php?<?php echo base64_encode("seccion_evarios=asistente_stm"); ?>" title="Asistentes">Registrados</a></li><li><a href="index.php?<?php echo base64_encode("seccion_evarios=salir_stm"); ?>" title="Salir del ADM">Salir</a></li></ul>
+		
